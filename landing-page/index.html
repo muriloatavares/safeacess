@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Página de aviso do sistema Safe Access.">
+  <title>Acesso restrito · Safe Access</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Safe Access - início">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>SAFE ACCESS</span>
+      </a>
+      <span class="status"><span class="status-dot"></span> Proteção informativa</span>
+    </header>
+
+    <section class="panel" aria-labelledby="page-title">
+      <div class="shield" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img">
+          <path d="M32 5 53 13v16c0 14-8.8 24.3-21 30C19.8 53.3 11 43 11 29V13L32 5Z"/>
+          <path d="m23 31 6 6 13-14"/>
+        </svg>
+      </div>
+      <p class="eyebrow">POLÍTICA DE NAVEGAÇÃO</p>
+      <h1 id="page-title">Acesso restrito</h1>
+      <p class="lead">Este endereço foi bloqueado pelas regras de proteção de conteúdo configuradas neste dispositivo ou rede.</p>
+
+      <div class="details">
+        <div>
+          <span class="detail-label">DOMÍNIO solicitado</span>
+          <code id="blocked-domain">Não informado</code>
+        </div>
+        <div>
+          <span class="detail-label">CATEGORIA</span>
+          <strong>Conteúdo classificado como adulto</strong>
+        </div>
+      </div>
+
+      <p class="hint">Se você acredita que este endereço foi classificado incorretamente, solicite uma revisão ao administrador da proteção.</p>
+      <a class="home-link" href="./">Voltar à página inicial</a>
+    </section>
+
+    <footer>
+      <span>SAFE ACCESS</span>
+      <span>Proteção de navegação</span>
+    </footer>
+  </main>
+</body>
+</html>
