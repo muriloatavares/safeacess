@@ -1,0 +1,5 @@
+# Lista de origem (formato Pi-hole/domínios)
+https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
+
+# Revisar falsos positivos e validar o formato antes de converter para regras DNS.
+# Não publique cópias processadas sem preservar a atribuição/licença aplicável.
